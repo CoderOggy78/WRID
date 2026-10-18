@@ -489,3 +489,4 @@ Output ONLY a valid JSON array matching this exact schema:
 
   throw new Error('Could not parse opportunities list from AI response');
 }
+

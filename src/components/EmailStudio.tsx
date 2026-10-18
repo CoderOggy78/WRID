@@ -1129,3 +1129,4 @@ export const EmailStudio: React.FC<EmailStudioProps> = ({
     </div>
   );
 };
+

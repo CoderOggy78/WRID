@@ -824,3 +824,4 @@ export const FacultyDirectory: React.FC<FacultyDirectoryProps> = ({
     </div>
   );
 };
+

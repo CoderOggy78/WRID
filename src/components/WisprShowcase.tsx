@@ -267,3 +267,4 @@ export const WisprShowcase: React.FC<WisprShowcaseProps> = ({ onLoadTemplateInSt
     </div>
   );
 };
+

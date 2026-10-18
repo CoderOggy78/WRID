@@ -145,3 +145,4 @@ export interface TrendingOpportunity {
   source: string;
   isAiGenerated?: boolean;
 }
+

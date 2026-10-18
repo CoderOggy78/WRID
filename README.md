@@ -1,8 +1,8 @@
-# Winter Research Desk (Winter 2026–27)
+# WRID — Winter Research Internship Desk (Winter 2026–27)
 
-A focused, calm, and rigorous academic workspace designed for Indian undergraduate students across disciplines (Computer Science, AI/ML, Electrical & Electronics, Mechanical Engineering, Chemistry, Physics, Life Sciences, Mathematics, and Interdisciplinary Studies) preparing for and applying to winter research internships.
+A focused, calm, and rigorous academic workspace designed for undergraduate students across disciplines (Computer Science, AI/ML, Electrical & Electronics, Mechanical Engineering, Chemistry, Physics, Life Sciences, Mathematics, and Interdisciplinary Studies) preparing for and applying to winter research internships.
 
-Built with **React 19**, **TypeScript**, **Tailwind CSS**, and **Vite**, inspired by the refined, considered UI/UX of modern tools
+Built with **React 19**, **TypeScript**, **Tailwind CSS**, and **Vite**, inspired by the refined, considered UI/UX of modern tools.
 
 ---
 
@@ -14,10 +14,10 @@ Built with **React 19**, **TypeScript**, **Tailwind CSS**, and **Vite**, inspire
 - **Personalized Plan Builder:** Multi-discipline preference capture (Degree, Year, Broad Interests, Tools, Baseline Project, Availability Dates, and Work Mode) with starting recommendations.
 - **Honest Progress Metrics:** LocalStorage-backed counters (Saved Contacts, Applications Recorded, Due Follow-ups, Roadmap Progress) with truthful empty states upon first launch.
 
-### 2. Faculty Directory (1,411 Indexed IIT Professors)
-- **Direct Structured Data:** Imported directly from the provided public compilation across IIT Bombay, IIT Indore, IIT Kharagpur, IIT Gandhinagar, IIT Delhi, IIT Guwahati, IIT Palakkad, IIT Jammu, IIT Ropar, IIT BHU, and others.
-- **Multi-Factor Filtering:** Search by professor name, campus, department, or domain keyword.
-- **Transparent Relevance:** Explains why a result appears based on keyword overlap (no fabricated AI fit percentages).
+### 2. Faculty Directory (1,610+ Verified IIT, NIT, IIIT, BITS & IISc Professors)
+- **Direct Structured Data:** 1,610 verified faculty members across 49 premier Indian institutions (IIT Bombay, IIT Delhi, IIT Madras, IIT Kanpur, IIT Kharagpur, IISc Bangalore, NIT Trichy, NIT Surathkal, NIT Warangal, IIIT Hyderabad, IIIT Bangalore, BITS Pilani, etc.).
+- **Multi-Factor Filtering:** Search by professor name, campus, department, or domain keyword with multi-select support.
+- **Transparent Relevance:** Explains why a result appears based on keyword overlap and verified research papers.
 - **Detail Slide-Over Drawer:** Contact info, Google Scholar query link, official web search, editable personal research-fit notes, and a dedicated scratchpad to record one relevant paper.
 - **CSV & JSON Import:** Custom data loader with column mapping and deduplication.
 
@@ -39,7 +39,19 @@ Built with **React 19**, **TypeScript**, **Tailwind CSS**, and **Vite**, inspire
 - **Pre-Send Personalization Checklist:** 8 essential academic criteria.
 - **AI Tone Review & Brainstorming:** Optional academic tone review and question suggestion powered by Google Gemma (`gemma-4-26b-a4b-it` via `VITE_GEMMA_API_KEY`) and Groq (`llama-3.3-70b-versatile` via `VITE_GROQ_API_KEY`).
 
-### 5. My Applications (Personal Tracker & Follow-up Workflow)
+### 5. Trending Global Research Opportunities
+- **Curated Prestigious Fellowships:** Verified opportunities across IITs, NITs, IIITs, MIT, Harvard, ETH Zurich, CERN, Stanford, and Max Planck.
+- **Detailed Intelligence:** Stipend breakdown, host institutions, deadlines, eligibility criteria, and direct portal links.
+- **Filter by Eligibility:** Academic year (2nd, 3rd, 4th yr), discipline, stipend support, and international tracks.
+- **One-Click Application Tracking:** Save any opportunity directly into your tracker or target it in the Email Studio.
+
+### 6. AI Resume Autopilot & Candidate Dual-Matching
+- **Zero-Friction Parsing:** Paste or upload your resume (PDF/Text/Markdown) with instant skill & project extraction.
+- **Faculty Recommendation Engine:** Analyzes skill overlaps and research papers across 1,610+ professors to rank top matches with concrete alignment rationales.
+- **Internship Recommendation Engine:** Evaluates candidate credentials against premier research fellowships with compatibility percentages.
+- **One-Click Outreach:** Auto-fills cold email templates with personalized paper citations and research synergy notes.
+
+### 7. My Applications (Personal Tracker & Follow-up Workflow)
 - **9 Standard Academic Statuses:** *Shortlisted*, *Reading their work*, *Draft ready*, *Applied*, *Follow-up sent*, *Replied*, *Interview*, *Offer*, *Closed*.
 - **Follow-up Reminders:** Automatically flags applications that have passed the 7–10 day follow-up window. One-click "Log Sent" increments follow-up count and schedules the next checkpoint.
 - **Export & Backup:**
@@ -112,3 +124,4 @@ npm run build
 2. **Unverified Director Contacts:** The supplied DRDO director emails represent administrative leadership, not student internship coordinators. Students are guided to look for official training cell notices or send a polite procedural inquiry (Template C).
 3. **No Automatic Background Notifications:** Because this is an entirely client-side privacy-first application (with data safely stored in `localStorage`), follow-up reminders appear when the user visits the website. No background emails or push notifications are dispatched.
 4. **Data Portability:** Users can download a full `.json` backup or `.csv` export anytime from the header to safeguard their progress across devices or browser cache clears.
+

@@ -352,3 +352,4 @@ export function restoreBackupJSON(jsonData: any): boolean {
     return false;
   }
 }
+

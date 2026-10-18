@@ -148,3 +148,4 @@ export const ACCEPTANCE_CHECKLIST_ITEMS = [
   { id: 'c6', label: 'Home institution NOC & bonafide certificate obtained (if needed)', hint: 'Check with your HOD or Dean of Academic Affairs.' },
   { id: 'c7', label: 'Confidentiality / publication rights understood', hint: 'Critical for defence, DRDO, or sponsored industry projects.' }
 ];
+

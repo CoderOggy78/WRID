@@ -646,3 +646,4 @@ export const TrendingOpportunities: React.FC<TrendingOpportunitiesProps> = ({
     </div>
   );
 };
+

@@ -290,3 +290,4 @@ export const VERIFIED_TRENDING_OPPORTUNITIES: TrendingOpportunity[] = [
     source: 'EPFL School of Computer and Communication Sciences',
   }
 ];
+
