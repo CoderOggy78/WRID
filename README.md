@@ -74,68 +74,68 @@ flowchart TD
     class AppShell,LocalStorage,ImportModal,IIT,NIT,IIIT,DRDO,RecEngine,ResumeEnhancer,RankedMatches,CSVExport,MDExport,MailtoLinks,Consent,LLM,AppShellTree,Node1,Node2,Node3,Node4,Node5 darkBox;
     class ClientSide,ExternalAPI,ComponentTree strokeOnly;
 
-    ## 🌟 Key Features Implemented
-    
-    ### 1. Start Here & Onboarding
-    - **Hero Narrative:** *"Your winter research internship starts before the first email."*
-    - **6-Stage Interactive Roadmap:** `Prepare → Explore → Read → Reach out → Follow up → Interview`.
-    - **Personalized Plan Builder:** Multi-discipline preference capture (Degree, Year, Broad Interests, Tools, Baseline Project, Availability Dates, and Work Mode) with starting recommendations.
-    - **Honest Progress Metrics:** LocalStorage-backed counters (Saved Contacts, Applications Recorded, Due Follow-ups, Roadmap Progress) with truthful empty states upon first launch.
-    
-    ### 2. Faculty Directory (1,610+ Verified IIT, NIT, IIIT, BITS & IISc Professors)
-    - **Direct Structured Data:** 1,610 verified faculty members across 49 premier Indian institutions (IIT Bombay, IIT Delhi, IIT Madras, IIT Kanpur, IIT Kharagpur, IISc Bangalore, NIT Trichy, NIT Surathkal, NIT Warangal, IIIT Hyderabad, IIIT Bangalore, BITS Pilani, etc.).
-    - **Multi-Factor Filtering:** Search by professor name, campus, department, or domain keyword with multi-select support.
-    - **Transparent Relevance:** Explains why a result appears based on keyword overlap and verified research papers.
-    - **Detail Slide-Over Drawer:** Contact info, Google Scholar query link, official web search, editable personal research-fit notes, and a dedicated scratchpad to record one relevant paper.
-    - **CSV & JSON Import:** Custom data loader with column mapping and deduplication.
-    
-    ### 3. DRDO Directory (All 50 Labs & Facilities)
-    - **Complete Import:** All 50 DRDO laboratories, autonomous societies (e.g. ADA), and test ranges (e.g. ITR, PXE).
-    - **Mandatory Source Disclaimer:** Clear notices that supplied contacts represent director/executive offices rather than dedicated student recruitment desks.
-    - **5-Step Application Route Checklist:** Guides students to look for official circulars at `drdo.gov.in`, verify documents (NOC/bonafide only if requested), follow formal training cells, or send a structured inquiry.
-    - **Dual Display:** Switchable desktop data table and responsive card grid.
-    
-    ### 4. Email Studio (Zero AI API Requirement + Optional Groq AI Polish)
-    - **5 Academic Templates:**
-      - **Template A:** Specific professor outreach (paper connection, baseline project, realistic task).
-      - **Template B:** Student with limited research experience (foundational study, small project).
-      - **Template C:** DRDO application-process inquiry.
-      - **Template D:** First follow-up (7–10 days later with optional technical update).
-      - **Template E:** Final follow-up.
-    - **Live Preview & Placeholder Detector:** Highlights unresolved brackets (e.g. `[Name]`, `[start date]`, `[link]`) and prevents accidental sending of unpersonalized drafts.
-    - **One-Click Actions:** Copy subject, copy body, copy complete email, and `mailto:` client launcher (with an honest advisory that attachments must be added manually).
-    - **Pre-Send Personalization Checklist:** 8 essential academic criteria.
-    - **AI Tone Review & Brainstorming:** Optional academic tone review and question suggestion powered by Google Gemma (`gemma-4-26b-a4b-it` via `VITE_GEMMA_API_KEY`) and Groq (`llama-3.3-70b-versatile` via `VITE_GROQ_API_KEY`).
-    
-    ### 5. Trending Global Research Opportunities
-    - **Curated Prestigious Fellowships:** Verified opportunities across IITs, NITs, IIITs, MIT, Harvard, ETH Zurich, CERN, Stanford, and Max Planck.
-    - **Detailed Intelligence:** Stipend breakdown, host institutions, deadlines, eligibility criteria, and direct portal links.
-    - **Filter by Eligibility:** Academic year (2nd, 3rd, 4th yr), discipline, stipend support, and international tracks.
-    - **One-Click Application Tracking:** Save any opportunity directly into your tracker or target it in the Email Studio.
-    
-    ### 6. AI Resume Autopilot & Candidate Dual-Matching
-    - **Zero-Friction Parsing:** Paste or upload your resume (PDF/Text/Markdown) with instant skill & project extraction.
-    - **Faculty Recommendation Engine:** Analyzes skill overlaps and research papers across 1,610+ professors to rank top matches with concrete alignment rationales.
-    - **Internship Recommendation Engine:** Evaluates candidate credentials against premier research fellowships with compatibility percentages.
-    - **One-Click Outreach:** Auto-fills cold email templates with personalized paper citations and research synergy notes.
-    
-    ### 7. My Applications (Personal Tracker & Follow-up Workflow)
-    - **9 Standard Academic Statuses:** *Shortlisted*, *Reading their work*, *Draft ready*, *Applied*, *Follow-up sent*, *Replied*, *Interview*, *Offer*, *Closed*.
-    - **Follow-up Reminders:** Automatically flags applications that have passed the 7–10 day follow-up window. One-click "Log Sent" increments follow-up count and schedules the next checkpoint.
-    - **Export & Backup:**
-      - CSV export with spreadsheet formula injection protection (escapes `=`, `+`, `-`, `@`).
-      - Full JSON backup and restore.
-    
-    ### 6. 6-Week Research Preparation Roadmap
-    - Interactive checkboxes with persistent state.
-    - Tangible week-by-week deliverables (e.g., Week 1 research statement, Week 2 reproducible baseline, Week 3 paper notes, Week 5 application batch).
-    - Discipline-specific tooling tracks (AI/Data Science, Systems/Networking, Electronics/Robotics, Experimental Sciences).
-    - Embedded interactive paper-notes scratchpad.
-    
-    ### 7. Resources & Decision Tools
-    - **Practical Guides:** 1-Page Academic CV, Reproducible GitHub README, 3-Pass Paper Reading, Finding Official Pages, Interview Preparation.
-    - **"Before You Accept" Checklist:** Supervised scope, dates, accommodation, NOC requirements, and NDA/confidentiality.
-    - **Opportunity Notice Board:** Save official institutional fellowship notices with deadlines and eligibility criteria.
+## 🌟 Key Features Implemented
+
+### 1. Start Here & Onboarding
+- **Hero Narrative:** *"Your winter research internship starts before the first email."*
+- **6-Stage Interactive Roadmap:** `Prepare → Explore → Read → Reach out → Follow up → Interview`.
+- **Personalized Plan Builder:** Multi-discipline preference capture (Degree, Year, Broad Interests, Tools, Baseline Project, Availability Dates, and Work Mode) with starting recommendations.
+- **Honest Progress Metrics:** LocalStorage-backed counters (Saved Contacts, Applications Recorded, Due Follow-ups, Roadmap Progress) with truthful empty states upon first launch.
+
+### 2. Faculty Directory (1,610+ Verified IIT, NIT, IIIT, BITS & IISc Professors)
+- **Direct Structured Data:** 1,610 verified faculty members across 49 premier Indian institutions (IIT Bombay, IIT Delhi, IIT Madras, IIT Kanpur, IIT Kharagpur, IISc Bangalore, NIT Trichy, NIT Surathkal, NIT Warangal, IIIT Hyderabad, IIIT Bangalore, BITS Pilani, etc.).
+- **Multi-Factor Filtering:** Search by professor name, campus, department, or domain keyword with multi-select support.
+- **Transparent Relevance:** Explains why a result appears based on keyword overlap and verified research papers.
+- **Detail Slide-Over Drawer:** Contact info, Google Scholar query link, official web search, editable personal research-fit notes, and a dedicated scratchpad to record one relevant paper.
+- **CSV & JSON Import:** Custom data loader with column mapping and deduplication.
+
+### 3. DRDO Directory (All 50 Labs & Facilities)
+- **Complete Import:** All 50 DRDO laboratories, autonomous societies (e.g. ADA), and test ranges (e.g. ITR, PXE).
+- **Mandatory Source Disclaimer:** Clear notices that supplied contacts represent director/executive offices rather than dedicated student recruitment desks.
+- **5-Step Application Route Checklist:** Guides students to look for official circulars at `drdo.gov.in`, verify documents (NOC/bonafide only if requested), follow formal training cells, or send a structured inquiry.
+- **Dual Display:** Switchable desktop data table and responsive card grid.
+
+### 4. Email Studio (Zero AI API Requirement + Optional Groq AI Polish)
+- **5 Academic Templates:**
+  - **Template A:** Specific professor outreach (paper connection, baseline project, realistic task).
+  - **Template B:** Student with limited research experience (foundational study, small project).
+  - **Template C:** DRDO application-process inquiry.
+  - **Template D:** First follow-up (7–10 days later with optional technical update).
+  - **Template E:** Final follow-up.
+- **Live Preview & Placeholder Detector:** Highlights unresolved brackets (e.g. `[Name]`, `[start date]`, `[link]`) and prevents accidental sending of unpersonalized drafts.
+- **One-Click Actions:** Copy subject, copy body, copy complete email, and `mailto:` client launcher (with an honest advisory that attachments must be added manually).
+- **Pre-Send Personalization Checklist:** 8 essential academic criteria.
+- **AI Tone Review & Brainstorming:** Optional academic tone review and question suggestion powered by Google Gemma (`gemma-4-26b-a4b-it` via `VITE_GEMMA_API_KEY`) and Groq (`llama-3.3-70b-versatile` via `VITE_GROQ_API_KEY`).
+
+### 5. Trending Global Research Opportunities
+- **Curated Prestigious Fellowships:** Verified opportunities across IITs, NITs, IIITs, MIT, Harvard, ETH Zurich, CERN, Stanford, and Max Planck.
+- **Detailed Intelligence:** Stipend breakdown, host institutions, deadlines, eligibility criteria, and direct portal links.
+- **Filter by Eligibility:** Academic year (2nd, 3rd, 4th yr), discipline, stipend support, and international tracks.
+- **One-Click Application Tracking:** Save any opportunity directly into your tracker or target it in the Email Studio.
+
+### 6. AI Resume Autopilot & Candidate Dual-Matching
+- **Zero-Friction Parsing:** Paste or upload your resume (PDF/Text/Markdown) with instant skill & project extraction.
+- **Faculty Recommendation Engine:** Analyzes skill overlaps and research papers across 1,610+ professors to rank top matches with concrete alignment rationales.
+- **Internship Recommendation Engine:** Evaluates candidate credentials against premier research fellowships with compatibility percentages.
+- **One-Click Outreach:** Auto-fills cold email templates with personalized paper citations and research synergy notes.
+
+### 7. My Applications (Personal Tracker & Follow-up Workflow)
+- **9 Standard Academic Statuses:** *Shortlisted*, *Reading their work*, *Draft ready*, *Applied*, *Follow-up sent*, *Replied*, *Interview*, *Offer*, *Closed*.
+- **Follow-up Reminders:** Automatically flags applications that have passed the 7–10 day follow-up window. One-click "Log Sent" increments follow-up count and schedules the next checkpoint.
+- **Export & Backup:**
+  - CSV export with spreadsheet formula injection protection (escapes `=`, `+`, `-`, `@`).
+  - Full JSON backup and restore.
+
+### 6. 6-Week Research Preparation Roadmap
+- Interactive checkboxes with persistent state.
+- Tangible week-by-week deliverables (e.g., Week 1 research statement, Week 2 reproducible baseline, Week 3 paper notes, Week 5 application batch).
+- Discipline-specific tooling tracks (AI/Data Science, Systems/Networking, Electronics/Robotics, Experimental Sciences).
+- Embedded interactive paper-notes scratchpad.
+
+### 7. Resources & Decision Tools
+- **Practical Guides:** 1-Page Academic CV, Reproducible GitHub README, 3-Pass Paper Reading, Finding Official Pages, Interview Preparation.
+- **"Before You Accept" Checklist:** Supervised scope, dates, accommodation, NOC requirements, and NDA/confidentiality.
+- **Opportunity Notice Board:** Save official institutional fellowship notices with deadlines and eligibility criteria.
 
 ---
 
